@@ -6,6 +6,7 @@ from langchain.tools import tool, ToolRuntime
 from langgraph.checkpoint.memory import InMemorySaver
 from langchain.agents.structured_output import ToolStrategy
 from langchain.chat_models import init_chat_model
+from openai import OpenAI
 
 load_dotenv()
 
