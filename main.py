@@ -56,7 +56,7 @@ checkpointer = InMemorySaver()
 # llm = ChatOpenAI(model="gpt-5-nano", use_responses_api=True, temperature=0.5, timeout=10)
 
 llm = init_chat_model(
-    "claude-sonnet-4-5-20250929",
+    "gpt-4o-mini",
     temperature=0,
     model_provider="openai",
 )
